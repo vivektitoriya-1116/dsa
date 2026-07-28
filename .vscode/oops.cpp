@@ -10,8 +10,11 @@ class Player{
 };
 int main()
 {
-    Player player1;
-    player1.name="John";
-    player1.roar();
+    Player p1;
+    p1.name="thor";
+    p1.roar();
+    Player p2;
+    p2.name="odin";
+    p2.roar();
     return 0;
 }
